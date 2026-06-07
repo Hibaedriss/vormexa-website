@@ -4,12 +4,12 @@ export default function Home() {
       {/* BACKGROUND */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:80px_80px]"></div>
-        <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] bg-white/5 blur-[140px] rounded-full"></div>
-        <div className="absolute bottom-[10%] left-[-200px] w-[500px] h-[500px] bg-white/5 blur-[140px] rounded-full"></div>
+        <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] bg-white/5  rounded-full"></div>
+        <div className="absolute bottom-[10%] left-[-200px] w-[500px] h-[500px] bg-white/5  rounded-full"></div>
       </div>
 
       {/* NAVBAR */}
-      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/70 border-b border-neutral-900">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-black border-b border-neutral-900">
         <div className="px-5 sm:px-6 md:px-14 py-5 flex justify-between items-center">
           <h1 className="text-xl sm:text-2xl font-semibold tracking-[0.2em] sm:tracking-[0.25em]">
             VORMEXA
@@ -65,18 +65,18 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="relative min-h-[620px] sm:min-h-[680px] md:h-[700px] rounded-[30px] md:rounded-[40px] overflow-hidden border border-neutral-800 bg-gradient-to-br from-neutral-950 via-black to-neutral-900">
+            <div className="relative min-h-[520px] sm:min-h-[620px] md:h-[700px] rounded-[30px] md:rounded-[40px] overflow-hidden border border-neutral-800 bg-gradient-to-br from-neutral-950 via-black to-neutral-900">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.08),transparent_35%)]"></div>
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent,rgba(0,0,0,0.75))]"></div>
 
-              <div className="relative z-10 p-6 md:p-10 flex flex-col gap-8 justify-between min-h-[620px] sm:min-h-[680px] md:h-full">
+              <div className="relative z-10 p-6 md:p-10 flex flex-col gap-8 justify-between min-h-[480px] sm:min-h-[620px] md:h-full">
                 <div className="flex justify-between items-start gap-6">
                   <div>
                     <p className="text-neutral-500 tracking-[0.3em] text-sm mb-5">
                       VORMEXA SYSTEM
                     </p>
 
-                    <h3 className="text-2xl sm:text-4xl md:text-6xl font-semibold leading-tight max-w-full md:max-w-lg break-words">
+                    <h3 className="text-3xl sm:text-5xl md:text-7xl ...">
                       Intelligent BIM Coordination Environment
                     </h3>
                   </div>
@@ -510,7 +510,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="relative z-10 px-5 sm:px-6 md:px-14 py-10 border-t border-neutral-900 flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between text-neutral-500 text-sm">
-        <p>Vormexa Techno</p>
+        <p>vormexa Techno</p>
         <p>Sweden — 2026</p>
       </footer>
     </main>
