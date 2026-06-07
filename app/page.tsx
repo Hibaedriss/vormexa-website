@@ -493,7 +493,7 @@ export default function Home() {
 
         <div className="mt-10 md:mt-16 flex flex-col gap-4 md:gap-6 text-lg md:text-2xl break-words">
           <a
-            href="mailto:vormexa.info.bim@gmail.com"
+            href="mailto:info@vormexa.se"
             className="hover:text-neutral-400 transition"
           >
             vormexa.info.bim@gmail.com
