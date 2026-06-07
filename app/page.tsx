@@ -496,7 +496,7 @@ export default function Home() {
             href="mailto:info@vormexa.se"
             className="hover:text-neutral-400 transition"
           >
-            vormexa.info.bim@gmail.com
+            info@vormexa.se
           </a>
 
           <a
