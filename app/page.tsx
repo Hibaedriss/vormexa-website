@@ -37,7 +37,7 @@ export default function Home() {
               Vormexa
             </h2>
 
-            <p className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight mt-8 md:mt-10 max-w-full md:max-w-3xl break-words">
+            <p className="text-[2rem] sm:text-3xl md:text-5xl font-semibold leading-tight mt-8 md:mt-10 max-w-full md:max-w-3xl break-words">
               Intelligent BIM Coordination & Visualization
             </p>
 
@@ -65,18 +65,18 @@ export default function Home() {
           </div>
 
           <div className="relative">
-            <div className="relative min-h-[520px] md:h-[700px] rounded-[30px] md:rounded-[40px] overflow-hidden border border-neutral-800 bg-gradient-to-br from-neutral-950 via-black to-neutral-900">
+            <div className="relative min-h-[620px] sm:min-h-[680px] md:h-[700px] rounded-[30px] md:rounded-[40px] overflow-hidden border border-neutral-800 bg-gradient-to-br from-neutral-950 via-black to-neutral-900">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.08),transparent_35%)]"></div>
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent,rgba(0,0,0,0.75))]"></div>
 
-              <div className="relative z-10 p-6 md:p-10 flex flex-col justify-between min-h-[520px] md:h-full">
+              <div className="relative z-10 p-6 md:p-10 flex flex-col gap-8 justify-between min-h-[620px] sm:min-h-[680px] md:h-full">
                 <div className="flex justify-between items-start gap-6">
                   <div>
                     <p className="text-neutral-500 tracking-[0.3em] text-sm mb-5">
                       VORMEXA SYSTEM
                     </p>
 
-                    <h3 className="text-3xl sm:text-4xl md:text-6xl font-semibold leading-tight max-w-full md:max-w-lg break-words">
+                    <h3 className="text-2xl sm:text-4xl md:text-6xl font-semibold leading-tight max-w-full md:max-w-lg break-words">
                       Intelligent BIM Coordination Environment
                     </h3>
                   </div>
@@ -510,7 +510,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="relative z-10 px-5 sm:px-6 md:px-14 py-10 border-t border-neutral-900 flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between text-neutral-500 text-sm">
-        <p>vormexa Techno</p>
+        <p>Vormexa Techno</p>
         <p>Sweden — 2026</p>
       </footer>
     </main>
